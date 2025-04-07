@@ -22,7 +22,7 @@ public class Main {
 		System.out.println(numbers == primeNumbers);
 		System.out.println(numbers.equals(primeNumbers));
 		
-		//Check if primeNumbers is a subset of numbers
+		//Comprueba si primeNumbers es un subconjunto de números
 		boolean result = numbers.containsAll(primeNumbers);
 		System.out.println("Es HashSet2 subconjunto de Hashset1? " + result);
 		
