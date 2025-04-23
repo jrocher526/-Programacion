@@ -55,11 +55,7 @@ public class Usuario implements Comparable<Usuario> {
     // Método toString para imprimir
     @Override
     public String toString() {
-        return "Usuario{" +
-                "nombre='" + nombre + '\'' +
-                ", dni='" + dni + '\'' +
-                ", edad=" + edad +
-                ", puntuacionMedia=" + puntuacionMedia +
-                '}';
+        return "Usuario - Nombre: " + nombre + ", " + "DNI: " + dni + ", " 
+        		+ "Edad: " + edad + ", " + "Puntuacion Media: " + puntuacionMedia;
     }
 }
